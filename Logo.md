@@ -65,5 +65,5 @@ Follow the [previous steps setup](ColorScheme.md#setup) to set up the CustomPlug
         ```
 
 ---
-[Next: Icons](Icons.md) \
+[Next: Fonts](Fonts.md) \
 [Prev: Color Scheme](GettingStarted.md)
