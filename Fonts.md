@@ -4,8 +4,8 @@
 
 ## <a name="changingthefont"></a>Changing The Font
 To change the font, you will need to edit 2 files:
- 1. [custom.qrc](res/example/custom.qrc)
- 2. [qgcresources.exclusion](res/example/qgcresources.exclusion)
+ 1. [custom.qrc](qgroundcontrol/custom/custom.qrc)
+ 2. [qgcresources.exclusion](qgroundcontrol/custom/qgcresources.exclusion)
 
  - **qgcresources.exclusion**
     - This file excludes any file listed from the project, allowing replacement with `custom.qrc`. Adding the lines below will exclude all current fonts. `opensans` is used for *text in most languages* and `NanumGothic` for *Korean language text*. All fonts and resources can be found within `qgcresources.qrc`, and any line can be copied and pasted into the exclusion file. \

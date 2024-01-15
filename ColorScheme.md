@@ -4,8 +4,8 @@
 
 ## <a name="setup"></a>Setup
 When changing the color scheme, there are 2 files you need to pay attention to:
- 1. [CustomPlugin.cc](res/example/CustomPlugin.cc)
- 2. [CustomPlugin.h](res/example/CustomPlugin.h)
+ 1. [CustomPlugin.cc](qgroundcontrol/custom/src/CustomPlugin.cc)
+ 2. [CustomPlugin.h](qgroundcontrol/custom/src/CustomPlugin.h)
 
 These can be found in `src/` within the custom folder.
 
