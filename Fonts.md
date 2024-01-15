@@ -49,7 +49,8 @@ In this method, we replace the new font with our current font and change its nam
 **Make sure to run `updateqrc.py` after making any changes to the exclusion file or custom file to apply changes**
 
  - **src/QGCApplication.cc**
-  - Located in the root directory of QGroundControl and within the src folder, QGCApplication.cc can be found. Change the lines below to your new font names:
+    - Located in the root directory of QGroundControl and within the src folder, QGCApplication.cc can be found. Change the lines below to your new font names:
+  
         ```
         if(QFontDatabase::addApplicationFont(":/fonts/TextFont") < 0) {
             qWarning() << "Could not load /fonts/TextFont font";
@@ -58,6 +59,7 @@ In this method, we replace the new font with our current font and change its nam
             qWarning() << "Could not load /fonts/TextFont-demibold font";
         }
         ```
+        
         ```
         if(_locale == QLocale::Korean) {
             qCDebug(LocalizationLog) << "Loading Korean fonts" << _locale.name();
