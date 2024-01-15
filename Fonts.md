@@ -11,10 +11,10 @@ To change the font, you will need to edit 2 files:
     - This file excludes any file listed from the project, allowing replacement with `custom.qrc`. Adding the lines below will exclude all current fonts. `opensans` is used for *text in most languages* and `NanumGothic` for *Korean language text*. All fonts and resources can be found within `qgcresources.qrc`, and any line can be copied and pasted into the exclusion file.
 
     ```
-    <file alias="opensans">../resources/fonts/OpenSans-Regular.ttf</file>
-    <file alias="opensans-demibold">../resources/fonts/OpenSans-Semibold.ttf</file>
-    <file alias="NanumGothic-Regular">../resources/fonts/NanumGothic-Regular.ttf</file>
-    <file alias="NanumGothic-Bold">../resources/fonts/NanumGothic-Bold.ttf</file>
+    <file alias="opensans">resources/fonts/OpenSans-Regular.ttf</file>
+    <file alias="opensans-demibold">resources/fonts/OpenSans-Semibold.ttf</file>
+    <file alias="NanumGothic-Regular">resources/fonts/NanumGothic-Regular.ttf</file>
+    <file alias="NanumGothic-Bold">resources/fonts/NanumGothic-Bold.ttf</file>
     ```
 
 **There are 2 ways to edit `custom.qrc`: The [easy way](Fonts.md#easymethod) or the [more involved way](Fonts.md#hardermethod)**
