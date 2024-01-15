@@ -1,0 +1,29 @@
+/****************************************************************************
+ *
+ * (c) 2009-2020 QGROUNDCONTROL PROJECT <http://www.qgroundcontrol.org>
+ *
+ * QGroundControl is licensed according to the terms in the file
+ * COPYING.md in the root of the source code directory.
+ *
+ ****************************************************************************/
+
+import QtQuick
+
+import QGroundControl
+import QGroundControl.Controls
+import QGroundControl.ScreenTools
+
+// This control contains the instruments as well and the instrument pages which include values, camera, ...
+Column {
+    id:         _root
+    spacing:    _toolsMargin
+    z:          QGroundControl.zOrderWidgets
+
+    property real availableHeight
+
+    FlightDisplayViewWidgets {
+        id:                 flightDisplayViewWidgets
+        width:              parent.width
+        missionController:  _missionController
+    }
+}

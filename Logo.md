@@ -4,9 +4,9 @@
 
 ## <a name="setup"></a>Setup
 When changing the logo, we will need to edit 3 files:
- 1. [custom.qrc](res/example/custom.qrc)
- 2. [CustomPlugin.h](res/example/CustomPlugin.h) Found in `/src`
- 3. [CustomPlugin.cc](res/example/CustomPlugin.cc) Found in `/src`
+ 1. [custom.qrc](qgroundcontrol/custom/custom.qrc)
+ 2. [CustomPlugin.h](qgroundcontrol/custom/src/CustomPlugin.h) Found in `/src`
+ 3. [CustomPlugin.cc](qgroundcontrol/custom/src/CustomPlugin.cc) Found in `/src`
 
 Follow the [previous steps setup](ColorScheme.md#setup) to set up the CustomPlugin.h and CustomPlugin.cc. If you have not edited each of these files from the example, you can skip to [Change The Logo](Logo.md#changethelogo).
 
