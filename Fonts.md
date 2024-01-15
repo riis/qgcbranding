@@ -8,7 +8,8 @@ To change the font, you will need to edit 2 files:
  2. [qgcresources.exclusion](res/example/qgcresources.exclusion)
 
  - **qgcresources.exclusion**
-    - This file excludes any file listed from the project, allowing replacement with `custom.qrc`. Adding the lines below will exclude all current fonts. `opensans` is used for *text in most languages* and `NanumGothic` for *Korean language text*. All fonts and resources can be found within `qgcresources.qrc`, and any line can be copied and pasted into the exclusion file.
+    - This file excludes any file listed from the project, allowing replacement with `custom.qrc`. Adding the lines below will exclude all current fonts. `opensans` is used for *text in most languages* and `NanumGothic` for *Korean language text*. All fonts and resources can be found within `qgcresources.qrc`, and any line can be copied and pasted into the exclusion file. \
+    **Remeber to remove the `../` as this is the location found within the project folder and not the custom folder**
 
     ```
     <file alias="opensans">resources/fonts/OpenSans-Regular.ttf</file>
