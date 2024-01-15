@@ -8,7 +8,7 @@ When changing the logo, we will need to edit 3 files:
  2. [CustomPlugin.h](res/example/CustomPlugin.h) Found in `/src`
  3. [CustomPlugin.cc](res/example/CustomPlugin.cc) Found in `/src`
 
-Follow the [previous steps setup](ColorScheme.md#setup) to set up the CustomPlugin.h and CustomPlugin.cc. If you have not edited each of these files from the example, you can skip to [Change The Logo](#changethelogo).
+Follow the [previous steps setup](ColorScheme.md#setup) to set up the CustomPlugin.h and CustomPlugin.cc. If you have not edited each of these files from the example, you can skip to [Change The Logo](Logo.md#changethelogo).
 
  - **CustomPlugin.h**
     - Add to the CustomPlugin class `brandImageIndoor` and `brandImageOutdoor`:

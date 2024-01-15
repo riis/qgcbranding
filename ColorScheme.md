@@ -9,7 +9,7 @@ When changing the color scheme, there are 2 files you need to pay attention to:
 
 These can be found in `src/` within the custom folder.
 
-We have to ensure our *header (.h)* file is set up correctly to edit our *C++ (.cc)* file. If you have not edited each of these files from the example, you can skip to [Changing The Colors](#changingthecolors).
+We have to ensure our *header (.h)* file is set up correctly to edit our *C++ (.cc)* file. If you have not edited each of these files from the example, you can skip to [Changing The Colors](ColorScheme.md#changingthecolors).
 
 For an example file, please refer to the links above.
 

@@ -1,6 +1,6 @@
 # Fonts
 
-*All changes will be made within the custom folder except if following the [more involved way](#hardermethod)*
+*All changes will be made within the custom folder except if following the [more involved way](Fonts.md#hardermethod)*
 
 ## <a name="changingthefont"></a>Changing The Font
 To change the font, you will need to edit 2 files:
@@ -17,7 +17,7 @@ To change the font, you will need to edit 2 files:
     <file alias="NanumGothic-Bold">../resources/fonts/NanumGothic-Bold.ttf</file>
     ```
 
-**There are 2 ways to edit `custom.qrc`: The [easy way](#easymethod) or the [more involved way](#hardermethod)**
+**There are 2 ways to edit `custom.qrc`: The [easy way](Fonts.md#easymethod) or the [more involved way](Fonts.md#hardermethod)**
 ### <a name="easymethod"></a>Easy Method
 In this method, we replace the new font with our current font. The project will continue to reference `opensans`, but it will use our new fonts.
 
