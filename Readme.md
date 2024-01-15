@@ -20,9 +20,9 @@ If you need to install Qt, follow the [Guide to Install QT and QGroundControl](I
  - [Fonts](Fonts.md)
 
 ## Gallery
-![MainUI](res\img\MainUI.png)
+![MainUI](res/img/MainUI.png)
 
-![SettingsUI](res\img\SettingsUI.png)
+![SettingsUI](res/img/SettingsUI.png)
 
 ---
 [Next: Getting Started](GettingStarted.md)
